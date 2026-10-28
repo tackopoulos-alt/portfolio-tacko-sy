@@ -78,7 +78,7 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS', 'NestJS', 'PostgreSQL'],
     inProgress: true,
-    image: 'public/projects/e-stock-sante.png.png',
+    image: 'public/projects/e-stock-sante.png',
     demo: 'https://e-stock-sante.vercel.app',
     repo: 'https://github.com/ton-pseudo/e-stock-sante',
   },
@@ -93,7 +93,7 @@ export const projects = [
     ],
     stack: ['WordPress'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/CHR de Ndioum.png',
+    image: 'public/projects/chr-ndioum.png',
     demo: 'https://chrnd.com/',
     repo: '',
   },
@@ -107,7 +107,7 @@ export const projects = [
     ],
     stack: ['React', 'Node.js'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/POS Restaurant.png',
+    image: 'public/projects/pos-restaurant.png',
     demo: '',
     repo: '',
   },
@@ -121,7 +121,7 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/lumina (3).png',
+    image: 'public/projects/lumina.png',
     demo: 'https://lumina-opal-rho.vercel.app/',
     repo: '',
   },
@@ -148,7 +148,7 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/sama facture.png',
+    image: 'public/projects/sama-facture.png',
     demo: '',
     repo: '',
   },
@@ -162,7 +162,7 @@ export const projects = [
     ],
     stack: ['React', 'Firebase Auth'],
     inProgress: false,
-    image: 'public/projects/clone netflix.png',
+    image: 'public/projects/clone-netflix.png',
     demo: 'https://netflix-clone-q38a8uanl-tackopoulos-3081s-projects.vercel.app/',
     repo: '',
   },
