@@ -3,7 +3,7 @@ export const profile = {
   title: 'Développeuse Web et Mobile',
   tagline:
     'Je transforme vos idées en applications web et mobile performantes, utiles et faciles à prendre en main.',
-  photo: 'public/profil.jpeg',
+  photo: '/profil.jpeg',
   cv: '/CV_Tacko_Poulo_Sy_Developpeuse_Fullstack.pdf',
   github: 'https://github.com/tackopoulos-alt',
   linkedin: 'https://www.linkedin.com/in/tacko-poulo-sy-0b772533b/',
@@ -78,9 +78,9 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS', 'NestJS', 'PostgreSQL'],
     inProgress: true,
-    image: 'public/projects/e-stock-sante.png',
+    image: '/projects/e-stock-sante.png',
     demo: 'https://e-stock-sante.vercel.app',
-    repo: 'https://github.com/ton-pseudo/e-stock-sante',
+    repo: '', // À COMPLÉTER si le dépôt est public : https://github.com/tackopoulos-alt/...
   },
   {
     name: 'Site du CHR de Ndioum',
@@ -93,7 +93,7 @@ export const projects = [
     ],
     stack: ['WordPress'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/chr-ndioum.png',
+    image: '/projects/chr-ndioum.png',
     demo: 'https://chrnd.com/',
     repo: '',
   },
@@ -107,7 +107,7 @@ export const projects = [
     ],
     stack: ['React', 'Node.js'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/pos-restaurant.png',
+    image: '/projects/pos-restaurant.png',
     demo: '',
     repo: '',
   },
@@ -121,7 +121,7 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/lumina.png',
+    image: '/projects/lumina.png',
     demo: 'https://lumina-opal-rho.vercel.app/',
     repo: '',
   },
@@ -134,7 +134,7 @@ export const projects = [
     ],
     stack: ['HTML', 'CSS', 'JavaScript'],
     inProgress: false,
-    image: 'public/projects/e-learning.png',
+    image: '/projects/e-learning.png',
     demo: '',
     repo: '',
   },
@@ -148,7 +148,7 @@ export const projects = [
     ],
     stack: ['React', 'Tailwind CSS'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/sama-facture.png',
+    image: '/projects/sama-facture.png',
     demo: '',
     repo: '',
   },
@@ -162,8 +162,8 @@ export const projects = [
     ],
     stack: ['React', 'Firebase Auth'],
     inProgress: false,
-    image: 'public/projects/clone-netflix.png',
-    demo: 'https://netflix-clone-q38a8uanl-tackopoulos-3081s-projects.vercel.app/',
+    image: '/projects/clone-netflix.png',
+    demo: 'https://netflix-clone-q38a8uanl-tackopoulos-3081s-projects.vercel.app/', // À VÉRIFIER en navigation privée
     repo: '',
   },
   {
@@ -175,7 +175,7 @@ export const projects = [
     ],
     stack: ['WordPress'], // À VÉRIFIER
     inProgress: false,
-    image: 'public/projects/chrein.png',
+    image: '/projects/chrein.png',
     demo: 'https://chrein.net/',
     repo: '',
   },
