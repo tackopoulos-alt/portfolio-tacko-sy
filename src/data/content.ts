@@ -98,6 +98,20 @@ export const projects = [
     repo: '',
   },
   {
+    name: 'Dieyna Luxury',
+    summary: 'une boutique en ligne sénégalaise spécialisée dans les soins Balea.', // À VÉRIFIER
+    features: [
+      { label: 'commande en ligne', done: true }, // À VÉRIFIER
+      { label: 'Des soins balea pour toute la famille', done: true }, // À VÉRIFIER
+      { label: 'livre à Dakar et dans les régions du Sénégal', done: true }, // À VÉRIFIER
+    ],
+    stack: ['React', 'TypeScript ', ' NestJS ', 'PostgreSQL'], // À VÉRIFIER
+    inProgress: false,
+    image: '/projects/dieyna-luxury.png',
+    demo: 'https://dieyna-luxury.vercel.app/',
+    repo: '',
+  },
+  {
     name: 'POS Restaurant',
     summary: 'Logiciel de caisse pour restaurant : prise de commandes, encaissement et suivi des ventes.', // À VÉRIFIER
     features: [
@@ -135,7 +149,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     inProgress: false,
     image: '/projects/e-learning.png',
-    demo: '',
+    demo: 'https://e-learning-one-pi.vercel.app/',
     repo: '',
   },
   {
